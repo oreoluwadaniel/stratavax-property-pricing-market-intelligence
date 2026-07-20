@@ -1,10 +1,10 @@
-# Stratavax Property Pricing & Market Intelligence
+# Larkmoor Property Pricing & Market Intelligence
 
 A SQL analysis project that checks whether a real estate portfolio is priced right against the market, and flags exactly which properties to raise, lower, or leave alone.
 
 ## Business problem
 
-Stratavax is a real estate company holding properties across eight cities: Lagos, Dubai, Sydney, Toronto, Singapore, London, Berlin, and New York. Like most portfolio owners, they set listing prices up front and then mostly leave them alone. The problem with that approach is that markets move. A price that made sense in 2020 might be well off the mark by 2023, and nobody in the business had an easy way to check.
+Larkmoor is a real estate company holding properties across eight cities: Lagos, Dubai, Sydney, Toronto, Singapore, London, Berlin, and New York. Like most portfolio owners, they set listing prices up front and then mostly leave them alone. The problem with that approach is that markets move. A price that made sense in 2020 might be well off the mark by 2023, and nobody in the business had an easy way to check.
 
 Management needed a way to answer a few plain questions. Are we priced competitively right now? Which properties are quietly underpriced, and which ones are sitting overpriced and probably why they're not moving? Does demand or the interest rate environment actually show up in what properties sell for? And which markets are worth pushing into further?
 
@@ -12,7 +12,7 @@ This project builds that check directly into SQL, so pricing decisions can be ba
 
 ## Data source
 
-The analysis runs on four tables from Stratavax's internal systems, provided as CSV extracts:
+The analysis runs on four tables from Larkmoor's internal systems, provided as CSV extracts:
 
 **properties** holds the core portfolio: property ID, type, city, country, price, size, bedrooms, status, and listing date, for roughly 3,000 properties.
 
@@ -56,7 +56,7 @@ Once the demand and interest rate join was fixed to match by actual transaction 
 
 ## Recommendation
 
-Put the pricing gap and dynamic pricing KPIs on a recurring cycle, monthly is reasonable, rather than treating this as a one-off report. Properties flagged "Reduce Price" for several cycles in a row are worth a hard look at whether they're overpriced or just sitting in a slower part of the portfolio. Properties flagged "Increase Price" are the more urgent case, since Stratavax is very likely leaving money on the table every day that price stays where it is.
+Put the pricing gap and dynamic pricing KPIs on a recurring cycle, monthly is reasonable, rather than treating this as a one-off report. Properties flagged "Reduce Price" for several cycles in a row are worth a hard look at whether they're overpriced or just sitting in a slower part of the portfolio. Properties flagged "Increase Price" are the more urgent case, since Larkmoor is very likely leaving money on the table every day that price stays where it is.
 
 Use the city-level KPI to guide where new listings or acquisitions get prioritized, rather than spreading effort evenly across all eight markets.
 

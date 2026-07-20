@@ -1,12 +1,12 @@
 /*===========================================================
-STRATAVAX REAL ESTATE
+LARKMOOR REAL ESTATE
 DYNAMIC PROPERTY PRICING & MARKET INTELLIGENCE SYSTEM
 ===========================================================
 
 Business objective
 
 This script evaluates property valuations, market dynamics, and
-pricing performance so Stratavax can make data driven pricing,
+pricing performance so Larkmoor can make data driven pricing,
 investment, and revenue decisions.
 
 The goal is to identify pricing opportunities, track market
@@ -15,7 +15,7 @@ against current market conditions.
 
 Business context
 
-Stratavax operates across several real estate markets, with
+Larkmoor operates across several real estate markets, with
 properties that differ in location, size, and transaction type.
 Management needs ongoing visibility into:
 
